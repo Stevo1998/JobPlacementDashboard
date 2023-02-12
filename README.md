@@ -8,13 +8,14 @@ displayed to  the user from an outside source by web scraping from an API. This 
 as an individual programer and as part of a developement team as it was managed using the Agile/Scrum methodology during its process. The Project
 consisted of a two week sprint, during this time, each student was required to attend: a sprint planning session at the start of the sprint, daily stand-up
 meetings at the beggginning of each day, and a sprint review at the end of the sprint. The project was also broken down into ten stories, each being an individual 
-feature of the main task being asked for. Over the two week sprint I learned a lot about undividual strengths and weaknesses, I also had the opportunity to work under a project team environment where one's changes could affect the overall project.
+feature of the main [tasks](#tasks) being asked for. Over the two week sprint I learned a lot about undividual strengths and weaknesses, I also had the opportunity to work under a project team environment where one's changes could affect the overall project.
 
 Below are descriptions the main tasks some of the stories consisted on, along with code snippets, pictures and navigation links.
 
-*[CRUD Functionality](#crud-functionality)
-*[API](#API)
-*[Front End Development](#front-end-development)
+## Main Tasks
+* [CRUD Functionality](#crud-functionality)
+* [API](#api)
+* [Front End Development](#front-end-development)
 
 ### CRUD Functionality
 This task consisted on figuring out various elements of the object being tracked and create a model, a model form, and develop CRUD functionality to manage 
@@ -89,6 +90,8 @@ I then created a base html page and, by using template inheridtance along with t
             content = {'form': form}
             return render(request, 'CostaRicaApp/addLocation.html', content)
 
+*Jump to: [CRUD Functionality](#crud-functionality), [API](#api), [Front End Development](#front-end-development), [Page Top](#live-project)
+
 ### API
 Another one of the tasks was to create a page within the app where information from an API was presented to the user using JSON responses and url/http 
 queries that relates to the chosen topic in some way. As I added a "Cost" field within the form to add locations, I decided to use an API that realtes to currency rate exchanges to allow users to select from a list menu of a currency and view the exchange rate the chosen currency to Colones (the currency used in Costa Rica. I created a page template and a fuction to render the API page when requested. Withing the template, I created a select menu that lists the top ten currencies used around the world as a way to get user input information. Then, by parsing through the JSON file returned by the API, I querried specific information from the API to display the desired exchange rate based on the user's selected currency (user's input). Below I have attached the function used when the API page is requested:
@@ -127,8 +130,11 @@ queries that relates to the chosen topic in some way. As I added a "Cost" field 
             return render(request, 'CostaRicaApp/costarica_api.html', content)
             
  
+*Jump to: [CRUD Functionality](#crud-functionality), [Front End Development](#front-end-development), [Page Top](#live-project)
+
 ### Front End Development
 The last task of the project was to work on front end improvements. This required some planning and drawing to figure out how I wanted to make my overall web application to look and behave. Also, since template inheridtance was used throughout the pages, numerours modifications needed to made on each page template to match the page's content (i.e a form, a table, or the content of headings). I wanted my application to have an uniformed look throughout each page; So I decided to use a Picture of a well-known volcano in Costa Rica as the back-ground, then provided the user a title and a brief description of each page content using heading and paragraph tags that changed depending on the page requested while keeping have that uniformed look. Then, using CSS I added final touches such ass fonts and colors for each of the Ids, classes and elements within the pages, as well as Navbar, buttons, and overall page animations. Below I have attached a GIF to display the final product:
 
 ![img](ezgif.com-video-to-gif.gif)
 
+*Jump to: [CRUD Functionality](#crud-functionality), [API](#api), [Page Top](#live-project)
