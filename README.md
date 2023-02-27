@@ -8,7 +8,7 @@ displayed to  the user from an outside source by web scraping from an API. This 
 as an individual programer and as part of a developement team as it was managed using the Agile/Scrum methodology during its process. The Project
 consisted of a two week sprint, during this time, each student was required to attend: a sprint planning session at the start of the sprint, daily stand-up
 meetings at the beggginning of each day, and a sprint review at the end of the sprint. The project was also broken down into ten stories, each being an individual 
-feature of the main [tasks](#tasks) being asked for. Over the two week sprint I learned a lot about undividual strengths and weaknesses, I also had the opportunity to work under a project team environment where one's changes could affect the overall project.
+feature of the main [tasks](#main-tasks) being asked for. Over the two week sprint I learned a lot about undividual strengths and weaknesses, I also had the opportunity to work under a project team environment where one's changes could affect the overall project.
 
 Below are descriptions the main tasks some of the stories consisted on, along with code snippets, pictures and navigation links.
 
